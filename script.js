@@ -89,9 +89,8 @@ function googlelink() {
 }
 
 function changeBackgroundColor() {
-    rng = getRandomNumber(1, 10);
-    const gradientColor = primeColors[rng];
-    
+    rng = getRandomNumber(1, 4);
+    console.log(rng)
     background.style.background = `linear-gradient(${primeColors[rng]}, ${betaColors[rng]})`;
 }
 changeBackgroundColor()
