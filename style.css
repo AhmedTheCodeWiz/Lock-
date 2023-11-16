@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Noto Sans Linear B', sans-serif;
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+#background{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( #6cbcf7, #51a2de);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#app-name{
+    font-size: 2rem;
+}
+#dev-name{
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(236, 236, 236);
+    font-size: 20px;
+}
+
+
+
+#share {
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    /* Additional necessary styles */
+}
+#whatsapp{
+    display: none;
+    height: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    margin-right: 20px;
+    fill: #363636;
+    border-radius: 4px;
+}
+#facebook{
+    display: none;
+    height: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    margin-right: 20px;
+    fill: #363636;
+    border-radius: 4px;
+}
+#twitter{
+    display: none;
+    height: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    margin-right: 20px;
+    fill: #363636;
+    border-radius: 4px;
+}
+@keyframes spinTo{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+@keyframes spinBack {
+    0% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes whatsappdrop{
+    0%{
+        margin-top: 1rem;
+    }
+    100%{
+        margin-top: 5rem;
+    }
+}
+@keyframes facebookdrop{
+    0%{
+        margin-top: 1rem;
+    }
+    100%{
+        margin-top: 8rem;
+    }
+}
+@keyframes twitterdrop{
+    0%{
+        margin-top: 1rem;
+    }
+    100%{
+        margin-top: 11rem;
+    }
+}
+
+
+#lock-icon{
+    box-shadow: 0 0 2rem 1rem rgba(54, 54, 54, 0.3);
+    border-radius: 3rem;
+    width: 20rem;
+}
+.text{
+    margin-top: 1rem;
+}
+#google-play-badge{
+    margin-top: 2rem;
+    height: 9rem;
+}
